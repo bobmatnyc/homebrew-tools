@@ -3,8 +3,8 @@ class McpSkillset < Formula
 
   desc "Dynamic RAG-powered skills for code assistants via Model Context Protocol"
   homepage "https://github.com/bobmatnyc/mcp-skillset"
-  url "https://files.pythonhosted.org/packages/source/m/mcp-skillset/mcp_skillset-0.5.1.tar.gz"
-  sha256 "de320ea9b26de2f9aff530f4b1b9dafefc5daf915229a7b7da970928eea90c94"
+  url "https://files.pythonhosted.org/packages/source/m/mcp-skillset/mcp_skillset-0.6.0.tar.gz"
+  sha256 "38380332b37a42144f0be1c12a67e9ca3a46beebfcaf0e9d981144d5dd3c9541"
   license "MIT"
 
   depends_on "python@3.11"
