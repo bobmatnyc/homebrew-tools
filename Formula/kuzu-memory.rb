@@ -3,10 +3,10 @@ class KuzuMemory < Formula
 
   desc "Lightweight, embedded graph-based memory system for AI applications"
   homepage "https://github.com/bobmatnyc/kuzu-memory"
-  url "https://files.pythonhosted.org/packages/fa/e4/97b724e4cfe446d22fb8ecde6ee2ca09eea12f138e57e99947e67dab9994/kuzu_memory-1.5.0.tar.gz"
-  sha256 "9bfab0816c74360ced3c706a15802c947bd718cf11550aafd341dd0c8134bf87"
+  url "https://files.pythonhosted.org/packages/2c/ae/d417c7c299f20b8cd71f07e0b499224a5588ae4a15f15bb012e91f9918e7/kuzu_memory-1.5.1.tar.gz"
+  sha256 "a29d0c11b526d8ee932b99f71ee56f0d8d7f2183b3b938a17fc177a2a55e01c4"
   license "MIT"
-  version "1.5.0"
+  version "1.5.1"
 
   depends_on "python@3.11"
 
