@@ -3,8 +3,8 @@ class ClaudeMpm < Formula
 
   desc "Claude Multi-Agent Project Manager - Subprocess orchestration layer"
   homepage "https://github.com/bobmatnyc/claude-mpm"
-  url "https://files.pythonhosted.org/packages/ae/29/e158aadf7d775d79f2918c541f01dea7b3cfbbc1a4b6fe4bb4dd151e13d1/claude_mpm-5.4.0.tar.gz"
-  sha256 "67bc5d42bc53f7242833fd4a533e2eac248a1d97b171a0ddee4e9595b6a767fe"
+  url "https://files.pythonhosted.org/packages/90/cd/b043a39a8d68faf6aef89e43ebd790225f97e1e0fe558ff9262f25059a5e/claude_mpm-5.4.3.tar.gz"
+  sha256 "cb9ad0b54fb1a62eeeed6b488bbacb42e4eb78cda05bcded6ccd7dc674db8a36"
   license "MIT"
 
   depends_on "python@3.11"
