@@ -1,16 +1,16 @@
 class AiCommander < Formula
   desc "Multi-interface AI coding session manager - TUI, REPL, and Telegram"
   homepage "https://github.com/bobmatnyc/ai-commander"
-  url "https://github.com/bobmatnyc/ai-commander/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "79e4ba1d55020fefe90e8509d5a3a5c42280f50b777699cfcd082ea8935e032a"
+  url "https://github.com/bobmatnyc/ai-commander/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "e0702107aed175a100fde9a7c864e92640acf577b58cf9736ba1a1a25677cda4"
   license "MIT"
   head "https://github.com/bobmatnyc/ai-commander.git", branch: "main"
 
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args(path: "crates/commander-cli")
-    
+    system "cargo", "install", *std_cargo_args(path: "crates/ai-commander")
+
     # Also build the telegram bot binary
     system "cargo", "build", "--release", "-p", "commander-telegram"
     bin.install "target/release/commander-telegram"
@@ -30,6 +30,6 @@ class AiCommander < Formula
   end
 
   test do
-    assert_match "commander", shell_output("#{bin}/commander --version")
+    assert_match "ai-commander", shell_output("#{bin}/ai-commander --version")
   end
 end
