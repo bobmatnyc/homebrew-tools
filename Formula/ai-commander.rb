@@ -1,8 +1,8 @@
 class AiCommander < Formula
   desc "Multi-interface AI coding session manager - TUI, REPL, and Telegram"
   homepage "https://github.com/bobmatnyc/ai-commander"
-  url "https://github.com/bobmatnyc/ai-commander/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "e0702107aed175a100fde9a7c864e92640acf577b58cf9736ba1a1a25677cda4"
+  url "https://github.com/bobmatnyc/ai-commander/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "fb140447bb4b292ef7e774f40f827dd5f5d3b5d8d55bfac20e631cce33443852"
   license "MIT"
   head "https://github.com/bobmatnyc/ai-commander.git", branch: "main"
 
