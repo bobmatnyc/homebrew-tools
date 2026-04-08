@@ -3,8 +3,8 @@ class GitflowAnalytics < Formula
 
   desc "Analyze Git repositories for developer productivity insights"
   homepage "https://github.com/bobmatnyc/gitflow-analytics"
-  url "https://files.pythonhosted.org/packages/source/g/gitflow-analytics/gitflow_analytics-3.13.26.tar.gz"
-  sha256 "6fd0d090bb1e6e674993962391560a8e303a4b7e9ab974d2c29336db026be513"
+  url "https://files.pythonhosted.org/packages/source/g/gitflow-analytics/gitflow_analytics-3.13.27.tar.gz"
+  sha256 "004aaa4400ae7831469aa985fde5ce46e46e73e73e88e48295179c4236229142"
   license "MIT"
 
   depends_on "python@3.12"
