@@ -3,8 +3,8 @@ class GworkspaceMcp < Formula
 
   desc "Google Workspace MCP Server - Connect Claude to Google Workspace APIs"
   homepage "https://github.com/masapasa/google-workspace-mcp"
-  url "https://files.pythonhosted.org/packages/ac/3e/991a300109a226f06382d0b6a121dc36e5db9a4c7c92b6d7dd5cfd1e9f29/gworkspace_mcp-0.4.1.tar.gz"
-  sha256 "5045ea715a57e699dd404cd31ba0fbfb2ac06a54e483cb44015f1effe980ffe5"
+  url "https://files.pythonhosted.org/packages/05/74/2936699e8f5485d2744092ce49e285a3ad2f72c0f09d4f7a867b66abc32c/gworkspace_mcp-0.4.2.tar.gz"
+  sha256 "c604687dc1937a9c42516ee5394c282f96d26f2bc8e2b88d71d0dbfcf205a689"
   license "MIT"
 
   depends_on "python@3.11"
